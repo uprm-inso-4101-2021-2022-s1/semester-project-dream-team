@@ -18,11 +18,11 @@ const SafeArea = styled(SafeAreaView)`
   ${StatusBar.currentHeight && `margin-top: ${StatusBar.currentHeight}px`};
 `;
 const SearchContainer = styled.View`
-  padding: 16px;
+  padding: ${(props) => props.theme.space[3]};
 `;
 const RestauranListContainer = styled.View`
   flex: 1;
-  padding: 16px;
+  padding: ${(props) => props.theme.space[3]};
 `;
 export const RestaurantsScreen = () => (
   <SafeArea>
