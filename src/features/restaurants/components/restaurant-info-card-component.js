@@ -17,7 +17,7 @@ const RestaurantCardCover = styled(Card.Cover)`
 `;
 export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const {
-    name = "Some rest.",
+    name = "Restaurante El Chinchorro #4",
     icon,
     photos = [
       "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
