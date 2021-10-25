@@ -2,7 +2,8 @@ import React from "react";
 import { Text, StyleSheet } from "react-native";
 import { Card } from "react-native-paper";
 import styled from "styled-components/native";
-
+import { SvgXml } from "react-native-svg";
+import star from "../../../../assets/star.svg";
 const Title = styled(Text)`
   font-family: ${(props) => props.theme.fonts.body};
   font-size: ${(props) => props.theme.fontSizes.body};
@@ -38,12 +39,13 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
     isClosedTemporarily,
   } = restaurant;
 
+  const ratingArray = Array.from(new Array(Math.floor(rating)));
   return (
     <RestaurantCard elevation={5}>
       <RestaurantCardCover key={name} source={{ uri: photos[0] }} />
       <Info>
-      <Title> {name} </Title>
-      <Address> {address} </Address>
+        <Title> {name} </Title>
+        <Address> {address} </Address>
       </Info>
     </RestaurantCard>
   );
