@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
+import { Text } from "react-native";
 import { Card } from "react-native-paper";
 import styled from "styled-components/native";
 import { SvgXml } from "react-native-svg";
@@ -32,6 +32,7 @@ const Rating = styled.View`
   padding-top: ${(props) => props.theme.space[2]};
   padding-bottom: ${(props) => props.theme.space[2]};
 `;
+
 export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const {
     name = "Restaurante El Chinchorro #4",
@@ -42,7 +43,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
     address = "Plaza de estrellas",
     isOpenNow = true,
     rating = 5,
-    isClosedTemporarily,
+    isClosedTemporarily = true,
   } = restaurant;
   const ratingArray = Array.from(new Array(Math.floor(rating)));
 
