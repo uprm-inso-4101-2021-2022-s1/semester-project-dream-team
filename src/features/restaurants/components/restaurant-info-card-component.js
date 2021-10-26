@@ -3,6 +3,7 @@ import { Text, StyleSheet } from "react-native";
 import { Card } from "react-native-paper";
 import styled from "styled-components/native";
 import { SvgXml } from "react-native-svg";
+
 import star from "../../../../assets/star.svg";
 const Title = styled(Text)`
   font-family: ${(props) => props.theme.fonts.body};
@@ -26,6 +27,11 @@ const RestaurantCardCover = styled(Card.Cover)`
   padding: ${(props) => props.theme.space[3]};
   backgroundcolor: ${(props) => props.theme.colors.bg.primary};
 `;
+const Rating = styled.View`
+  flex-direction: row;
+  padding-top: ${(props) => props.theme.space[2]};
+  padding-bottom: ${(props) => props.theme.space[2]};
+`;
 export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const {
     name = "Restaurante El Chinchorro #4",
@@ -38,13 +44,15 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
     rating = 5,
     isClosedTemporarily,
   } = restaurant;
-
   const ratingArray = Array.from(new Array(Math.floor(rating)));
+
   return (
     <RestaurantCard elevation={5}>
       <RestaurantCardCover key={name} source={{ uri: photos[0] }} />
       <Info>
         <Title> {name} </Title>
+        <Rating>
+        </Rating>
         <Address> {address} </Address>
       </Info>
     </RestaurantCard>
