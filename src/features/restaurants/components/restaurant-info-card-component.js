@@ -25,7 +25,7 @@ const RestaurantCard = styled(Card)`
 `;
 const RestaurantCardCover = styled(Card.Cover)`
   padding: ${(props) => props.theme.space[3]};
-  backgroundcolor: ${(props) => props.theme.colors.bg.primary};
+  background-color: ${(props) => props.theme.colors.bg.primary};
 `;
 const Rating = styled.View`
   flex-direction: row;
