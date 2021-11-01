@@ -3,27 +3,27 @@ import { View } from "react-native";
 import styled from "styled-components/native";
 
 const TopSmall = styled.View`
-  margin-top: 4px;
+  margin-top: ${(props) => props.theme.space[2]};
 `;
 
 const TopMedium = styled.View`
-  margin-top: 8px;
+  margin-top: ${(props) => props.theme.space[3]};
 `;
 
 const TopLarge = styled.View`
-  margin-top: 16px;
+  margin-top: ${(props) => props.theme.space[4]};
 `;
 
 const LeftSmall = styled.View`
-  margin-left: 4px;
+  margin-left: ${(props) => props.theme.space[2]};
 `;
 
 const LeftMedium = styled.View`
-  margin-left: 8px;
+  margin-left: ${(props) => props.theme.space[3]};
 `;
 
 const LeftLarge = styled.View`
-  margin-left: 16px;
+  margin-left: ${(props) => props.theme.space[4]};
 `;
 export const Spacer = ({ variant }) => {
   if (variant === "top.medium") {
@@ -33,7 +33,7 @@ export const Spacer = ({ variant }) => {
     return <TopLarge />;
   }
   if (variant === "left.small") {
-    return <LeftMedium />;
+    return <LeftSmall />;
   }
   if (variant === "left.medium") {
     return <LeftMedium />;
