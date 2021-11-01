@@ -3,8 +3,9 @@ import { Text } from "react-native";
 import { Card } from "react-native-paper";
 import styled from "styled-components/native";
 import { SvgXml } from "react-native-svg";
+import { Spacer } from "../../../components/spacer/spacer.component";
+import star from "../../../../assets/star.js";
 
-import star from "../../../../assets/star.svg";
 const Title = styled(Text)`
   font-family: ${(props) => props.theme.fonts.body};
   font-size: ${(props) => props.theme.fontSizes.body};
@@ -42,7 +43,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
     ],
     address = "Plaza de estrellas",
     isOpenNow = true,
-    rating = 5,
+    rating = 4,
     isClosedTemporarily = true,
   } = restaurant;
   const ratingArray = Array.from(new Array(Math.floor(rating)));
@@ -52,7 +53,10 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
       <RestaurantCardCover key={name} source={{ uri: photos[0] }} />
       <Info>
         <Title> {name} </Title>
+        <SvgXml xml={star} height={20} width={20} />
         <Rating></Rating>
+        <Spacer variant="left.large" />
+        <Spacer variant="left.large" />
         <Address> {address} </Address>
       </Info>
     </RestaurantCard>
