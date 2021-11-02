@@ -12,13 +12,10 @@ import {
 } from "@expo-google-fonts/oswald";
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 import { SafeArea } from "./src/components/utility/safe-area.components";
-import {
-  MaterialCommunityIcons,
-  Ionicons,
-  FontAwesome,
-} from "@expo/vector-icons";
+import { Ionicons } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
+
 const Settings = () => (
   <SafeArea>
     <Text> Settings </Text>
@@ -62,25 +59,14 @@ export default function App() {
                   iconName = focused ? "ios-settings" : "ios-settings-outline";
                 } else if (route.name === "Account") {
                   iconName = focused
-                    ? "account-circle"
-                    : "account-circle-outline";
+                    ? "person-circle"
+                    : "person-circle-outline";
                 } else if (route.name === "Map") {
-                  iconName = focused ? "map-marker" : "map-marker-outline";
+                  iconName = focused ? "md-location" : "md-location-outline";
                 }
-                return (
-                  (<Ionicons name={iconName} size={size} color={color} />),
-                  (<FontAwesome name={iconName} size={size} color={color} />),
-                  (<Ionicons name={iconName} size={size} color={color} />),
-                  (
-                    <MaterialCommunityIcons
-                      name={iconName}
-                      size={size}
-                      color={color}
-                    />
-                  )
-                );
+                return <Ionicons name={iconName} size={size} color={color} />;
               },
-              tabBarActiveTintColor: "tomato",
+              tabBarActiveTintColor: "#228B22",
               tabBarInactiveTintColor: "gray",
             })}
           >
