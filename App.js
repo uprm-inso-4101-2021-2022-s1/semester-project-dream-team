@@ -12,6 +12,11 @@ import {
 } from "@expo-google-fonts/oswald";
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 import { SafeArea } from "./src/components/utility/safe-area.components";
+import {
+  MaterialCommunityIcons,
+  Ionicons,
+  FontAwesome,
+} from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
 const Settings = () => (
@@ -44,7 +49,41 @@ export default function App() {
     <>
       <ThemeProvider theme={theme}>
         <NavigationContainer>
-          <Tab.Navigator>
+          <Tab.Navigator
+            screenOptions={({ route }) => ({
+              tabBarIcon: ({ focused, color, size }) => {
+                let iconName;
+
+                if (route.name === "Restaurants") {
+                  iconName = focused
+                    ? "ios-restaurant"
+                    : "ios-restaurant-outline";
+                } else if (route.name === "Settings") {
+                  iconName = focused ? "ios-settings" : "ios-settings-outline";
+                } else if (route.name === "Account") {
+                  iconName = focused
+                    ? "account-circle"
+                    : "account-circle-outline";
+                } else if (route.name === "Map") {
+                  iconName = focused ? "map-marker" : "map-marker-outline";
+                }
+                return (
+                  (<Ionicons name={iconName} size={size} color={color} />),
+                  (<FontAwesome name={iconName} size={size} color={color} />),
+                  (<Ionicons name={iconName} size={size} color={color} />),
+                  (
+                    <MaterialCommunityIcons
+                      name={iconName}
+                      size={size}
+                      color={color}
+                    />
+                  )
+                );
+              },
+              tabBarActiveTintColor: "tomato",
+              tabBarInactiveTintColor: "gray",
+            })}
+          >
             <Tab.Screen name="Restaurants" component={RestaurantsScreen} />
             <Tab.Screen name="Map" component={Map} />
             <Tab.Screen name="Settings" component={Settings} />
