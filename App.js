@@ -72,8 +72,8 @@ export default function App() {
           >
             <Tab.Screen name="Restaurants" component={RestaurantsScreen} />
             <Tab.Screen name="Map" component={Map} />
-            <Tab.Screen name="Settings" component={Settings} />
             <Tab.Screen name="Account" component={Account} />
+            <Tab.Screen name="Settings" component={Settings} />
           </Tab.Navigator>
         </NavigationContainer>
       </ThemeProvider>
