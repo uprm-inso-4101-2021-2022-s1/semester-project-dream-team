@@ -13,9 +13,6 @@ The BoriTuri project consists of a service where people can find locations of in
 
 ## Getting Started
 
-### Dependencies
- * AQUI VAN LOS DEPENDENCIES DEL PROYECTO (ANDROID VERSION QUE ETC ETC) 
-
 
 ### How to run program
 
