@@ -33,8 +33,12 @@ expo start
 
 ### Front End
 * CSS
+* HTML
+* JavaScript
+* React Natice
 
 ### Back End
-* React Native
+* EasyBase
 * Google Maps API
+* JSON Files
 
