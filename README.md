@@ -24,6 +24,10 @@ The BoriTuri project consists of a service where people can find locations of in
 expo start 
 ```
 
+* Scan following QR code with Expo go app in your mobile phone
+
+![image](https://user-images.githubusercontent.com/42789704/139999092-f05e89bc-29b9-4b19-a397-ee7e693b0003.png)
+
 
 ## Tech Stack Used
 
