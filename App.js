@@ -15,6 +15,7 @@ import {
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 import { Ionicons } from "@expo/vector-icons";
 import { RestaurantsContextProvider } from "./src/services/restaurants/restaurants.context";
+import { LocationContextProvider } from "./src/services/location/location.context";
 
 const Tab = createBottomTabNavigator();
 
@@ -32,41 +33,47 @@ export default function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <RestaurantsContextProvider>
-          <NavigationContainer>
-            <Tab.Navigator
-              screenOptions={({ route }) => ({
-                tabBarIcon: ({ focused, color, size }) => {
-                  let iconName;
+        <LocationContextProvider>
+          <RestaurantsContextProvider>
+            <NavigationContainer>
+              <Tab.Navigator
+                screenOptions={({ route }) => ({
+                  tabBarIcon: ({ focused, color, size }) => {
+                    let iconName;
 
-                  if (route.name === "Restaurants") {
-                    iconName = focused
-                      ? "ios-restaurant"
-                      : "ios-restaurant-outline";
-                  } else if (route.name === "Settings") {
-                    iconName = focused
-                      ? "ios-settings"
-                      : "ios-settings-outline";
-                  } else if (route.name === "Account") {
-                    iconName = focused
-                      ? "person-circle"
-                      : "person-circle-outline";
-                  } else if (route.name === "Map") {
-                    iconName = focused ? "md-location" : "md-location-outline";
-                  }
-                  return <Ionicons name={iconName} size={size} color={color} />;
-                },
-                tabBarActiveTintColor: "#228B22",
-                tabBarInactiveTintColor: "gray",
-              })}
-            >
-              <Tab.Screen name="Restaurants" component={RestaurantsScreen} />
-              <Tab.Screen name="Map" component={MapScreen} />
-              <Tab.Screen name="Account" component={AccountScreen} />
-              <Tab.Screen name="Settings" component={SettingsScreen} />
-            </Tab.Navigator>
-          </NavigationContainer>
-        </RestaurantsContextProvider>
+                    if (route.name === "Restaurants") {
+                      iconName = focused
+                        ? "ios-restaurant"
+                        : "ios-restaurant-outline";
+                    } else if (route.name === "Settings") {
+                      iconName = focused
+                        ? "ios-settings"
+                        : "ios-settings-outline";
+                    } else if (route.name === "Account") {
+                      iconName = focused
+                        ? "person-circle"
+                        : "person-circle-outline";
+                    } else if (route.name === "Map") {
+                      iconName = focused
+                        ? "md-location"
+                        : "md-location-outline";
+                    }
+                    return (
+                      <Ionicons name={iconName} size={size} color={color} />
+                    );
+                  },
+                  tabBarActiveTintColor: "#228B22",
+                  tabBarInactiveTintColor: "gray",
+                })}
+              >
+                <Tab.Screen name="Restaurants" component={RestaurantsScreen} />
+                <Tab.Screen name="Map" component={MapScreen} />
+                <Tab.Screen name="Account" component={AccountScreen} />
+                <Tab.Screen name="Settings" component={SettingsScreen} />
+              </Tab.Navigator>
+            </NavigationContainer>
+          </RestaurantsContextProvider>
+        </LocationContextProvider>
       </ThemeProvider>
       <ExpoStatusBar style="auto" />
     </>
