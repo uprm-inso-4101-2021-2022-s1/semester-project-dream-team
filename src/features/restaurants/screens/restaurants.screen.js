@@ -12,7 +12,7 @@ const RestaurantList = styled(FlatList).attrs({
   },
 })``;
 export const RestaurantsScreen = () => {
-  const { isLoading, error, restaurants } = useContext(RestaurantsContext);
+  const { isLoading, restaurants } = useContext(RestaurantsContext);
   return (
     <SafeArea>
       <Search />

@@ -1,5 +1,5 @@
 export const locations = {
-  antwerp: {
+  rincon: {
     results: [
       {
         geometry: {
@@ -21,7 +21,7 @@ export const locations = {
       },
     ],
   },
-  caborojo: {
+  "cabo rojo": {
     results: [
       {
         geometry: {
@@ -35,7 +35,7 @@ export const locations = {
     ],
     status: "OK",
   },
-  sanjuan: {
+  "san juan": {
     results: [
       {
         geometry: {
