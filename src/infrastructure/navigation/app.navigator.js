@@ -8,7 +8,7 @@ import { SafeArea } from "../../components/utility/safe-area.component";
 
 const Tab = createBottomTabNavigator();
 const TAB_ICON = {
-  Restaurants: "md-paper-plane",
+  Attractions: "md-paper-plane",
   Map: "md-location",
   Account: "md-person",
   Settings: "md-settings",
@@ -51,7 +51,7 @@ export const AppNavigator = () => (
         inactiveTintColor: "gray",
       }}
     >
-      <Tab.Screen name="Restaurants" component={RestaurantsScreen} />
+      <Tab.Screen name="Attractions" component={RestaurantsScreen} />
 
       <Tab.Screen name="Map" component={Map} />
       <Tab.Screen name="Account" component={Account} />
