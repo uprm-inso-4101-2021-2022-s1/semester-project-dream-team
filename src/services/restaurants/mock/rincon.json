@@ -21,7 +21,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "name": "Novotel Toronto Centre",
+        "name": "Sandy Beach",
         "opening_hours": {
           "open_now": true
         },
@@ -51,7 +51,7 @@
           "establishment"
         ],
         "user_ratings_total": 1822,
-        "vicinity": "45 The Esplanade, Toronto"
+        "vicinity": "Carretera 413 Ramal, Aguada, Rincón 00602"
       },
       {
         "business_status": "OPERATIONAL",
@@ -72,7 +72,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "name": "Fairmont Royal York",
+        "name": "Faro de Punta Higuera",
         "opening_hours": {
           "open_now": true
         },
@@ -102,7 +102,7 @@
           "establishment"
         ],
         "user_ratings_total": 8383,
-        "vicinity": "100 Front Street West, Toronto"
+        "vicinity": "PR-4413, Aguada, Rincón 00677"
       },
       {
         "business_status": "OPERATIONAL",
@@ -123,7 +123,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "name": "HOTEL OCHO",
+        "name": "Steps Beach",
         "opening_hours": {
           "open_now": true
         },
@@ -154,7 +154,7 @@
           "establishment"
         ],
         "user_ratings_total": 502,
-        "vicinity": "195 Spadina Avenue, Toronto"
+        "vicinity": "PR-4413, Aguada, Rincón 00677"
       },
       {
         "business_status": "OPERATIONAL",
@@ -175,7 +175,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Marquis Lounge and Bistro",
+        "name": "Desecheo Island",
         "photos": [
           {
             "height": 1500,
@@ -202,7 +202,7 @@
           "establishment"
         ],
         "user_ratings_total": 9,
-        "vicinity": "92 Peter Street, Toronto"
+        "vicinity": "KM 2.0, Carretera 413 Ramal, Rincon, 00677"
       },
       {
         "business_status": "OPERATIONAL",
@@ -223,7 +223,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Oliver & Bonacini Café Grill, Yonge & Front",
+        "name": "Domes Beach",
         "opening_hours": {
           "open_now": false
         },
@@ -255,7 +255,7 @@
           "establishment"
         ],
         "user_ratings_total": 1382,
-        "vicinity": "33 Yonge Street, Toronto"
+        "vicinity": "Rincon, 00602"
       },
       {
         "business_status": "CLOSED_TEMPORARILY",
@@ -276,7 +276,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Adega Restaurante",
+        "name": "Tres Palmas Marine Reserve",
         "permanently_closed": true,
         "photos": [
           {
@@ -304,7 +304,7 @@
           "establishment"
         ],
         "user_ratings_total": 405,
-        "vicinity": "33 Elm Street, Toronto"
+        "vicinity": "PR-413 Rincon Puerto Rico 00677, Rincón 00602"
       },
       {
         "business_status": "OPERATIONAL",
@@ -325,7 +325,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Terroni",
+        "name": "Maria's Beach",
         "opening_hours": {
           "open_now": true
         },
@@ -355,7 +355,7 @@
           "establishment"
         ],
         "user_ratings_total": 3698,
-        "vicinity": "57 Adelaide Street East, Toronto"
+        "vicinity": "PR-4413, Aguada, Rincón 00602"
       },
       {
         "business_status": "CLOSED_TEMPORARILY",
@@ -376,7 +376,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "The Keg Steakhouse + Bar - York Street",
+        "name": "El Faro Park",
         "permanently_closed": true,
         "photos": [
           {
@@ -404,7 +404,7 @@
           "establishment"
         ],
         "user_ratings_total": 2954,
-        "vicinity": "165 York Street, Toronto"
+        "vicinity": "00602"
       },
       {
         "business_status": "CLOSED_TEMPORARILY",
@@ -425,7 +425,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Jump Restaurant",
+        "name": "Punta Higuera Light House",
         "permanently_closed": true,
         "photos": [
           {
@@ -454,7 +454,7 @@
           "establishment"
         ],
         "user_ratings_total": 781,
-        "vicinity": "18 Wellington Street West, Toronto"
+        "vicinity": "PR-4413, Aguada, Rincón 00677"
       },
       {
         "business_status": "OPERATIONAL",
@@ -475,7 +475,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "The Senator",
+        "name": "Que Chevere Hotel",
         "opening_hours": {
           "open_now": false
         },
@@ -505,7 +505,7 @@
           "establishment"
         ],
         "user_ratings_total": 1371,
-        "vicinity": "249 Victoria Street, Toronto"
+        "vicinity": "17 Cll Muñoz Rivera, Rincon, Rincón 00677"
       },
       {
         "business_status": "OPERATIONAL",
@@ -526,7 +526,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Donatello Restaurant",
+        "name": "Balneario of Rincon",
         "opening_hours": {
           "open_now": false
         },
@@ -556,7 +556,7 @@
           "establishment"
         ],
         "user_ratings_total": 798,
-        "vicinity": "37 Elm Street, Toronto"
+        "vicinity": "8PRV+6Q8, Rincon, Rincón 00677"
       },
       {
         "business_status": "OPERATIONAL",
@@ -577,7 +577,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Canoe",
+        "name": "Rincon Marina",
         "opening_hours": {
           "open_now": false
         },
@@ -608,7 +608,7 @@
           "establishment"
         ],
         "user_ratings_total": 2019,
-        "vicinity": "66 Wellington Street West 54th floor, Toronto"
+        "vicinity": "PR-413 Rincon Puerto Rico 00677, Rincón 00602"
       },
       {
         "business_status": "OPERATIONAL",
@@ -629,7 +629,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Jack Astor's Bar & Grill",
+        "name": "Playa Corcega",
         "opening_hours": {
           "open_now": true
         },
@@ -660,7 +660,7 @@
           "establishment"
         ],
         "user_ratings_total": 4973,
-        "vicinity": "144 Front Street West, Toronto"
+        "vicinity": "PR-429, Rincon, Rincón 00677"
       },
       {
         "business_status": "OPERATIONAL",
@@ -681,7 +681,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Salad King",
+        "name": "Rincon Beach Resort",
         "opening_hours": {
           "open_now": true
         },
@@ -711,7 +711,7 @@
           "establishment"
         ],
         "user_ratings_total": 3669,
-        "vicinity": "340 Yonge Street, Toronto"
+        "vicinity": "Rincon Beach Resort Road 115 Km 5.8, Anasco, 00610"
       },
       {
         "business_status": "CLOSED_TEMPORARILY",
@@ -732,7 +732,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "IL FORNELLO on King",
+        "name": "Rincon Paddle Boards",
         "permanently_closed": true,
         "photos": [
           {
@@ -763,7 +763,7 @@
           "establishment"
         ],
         "user_ratings_total": 763,
-        "vicinity": "214 King Street West, Toronto"
+        "vicinity": "Rincon, Rincón 00677"
       },
       {
         "business_status": "OPERATIONAL",
@@ -784,7 +784,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Little India Restaurant",
+        "name": "Sufing Lessons Puerto Rico",
         "opening_hours": {
           "open_now": true
         },
@@ -815,7 +815,7 @@
           "establishment"
         ],
         "user_ratings_total": 1976,
-        "vicinity": "255 Queen Street West, Toronto"
+        "vicinity": "PR-413, Rincón 00602"
       },
       {
         "business_status": "OPERATIONAL",
@@ -836,7 +836,7 @@
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-        "name": "Scotland Yard Pub",
+        "name": "Rincon Diving and Snorkeling",
         "opening_hours": {
           "open_now": true
         },
@@ -867,7 +867,7 @@
           "establishment"
         ],
         "user_ratings_total": 1202,
-        "vicinity": "56 The Esplanade, Toronto"
+        "vicinity": "2207 Ave Pedro Albizu Campos Carr 115, Rincon, PR 00677"
       },
       {
         "business_status": "OPERATIONAL",
@@ -919,7 +919,7 @@
           "establishment"
         ],
         "user_ratings_total": 1410,
-        "vicinity": "309 King Street West, Toronto"
+        "vicinity": "2207 Ave Pedro Albizu Campos Carr 115, Rincon, PR 00677"
       },
       {
         "business_status": "CLOSED_TEMPORARILY",
@@ -968,7 +968,7 @@
           "establishment"
         ],
         "user_ratings_total": 763,
-        "vicinity": "133 Richmond Street West, Toronto"
+        "vicinity": "2207 Ave Pedro Albizu Campos Carr 115, Rincon, PR 00677"
       },
       {
         "business_status": "OPERATIONAL",
@@ -1019,7 +1019,7 @@
           "establishment"
         ],
         "user_ratings_total": 1064,
-        "vicinity": "180 Queen Street West, Toronto"
+        "vicinity": "2207 Ave Pedro Albizu Campos Carr 115, Rincon, PR 00677"
       }
     ],
     "status": "OK"
