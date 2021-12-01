@@ -6,14 +6,14 @@ import { Avatar } from "react-native-elements";
 export const AccountScreen = ({ navigation }) => {
   return (
     <SafeArea>
-        <Avatar
-          rounded
-          size="large"
-          icon={{ name: "user", type: "font-awesome", color: "green" }}
-        />
-        <Text>Username</Text>
-        <Text>Level 21</Text>
-    
+      <Avatar
+        rounded
+        size="large"
+        icon={{ name: "user", type: "font-awesome", color: "green" }}
+      />
+      <Text>Username</Text>
+      <Text>Level 21</Text>
+
       <List.Section>
         <List.Item
           style={{ padding: 16 }}
