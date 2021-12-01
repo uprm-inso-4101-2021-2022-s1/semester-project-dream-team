@@ -4,8 +4,8 @@ import caborojo from "./caborojo.json";
 import mayaguez from "./mayaguez.json";
 
 export const mocks = {
-  "51.219448,4.402464": rincon,
-  "43.653225,-79.383186": caborojo,
+  "-67.249946, 18.340151": rincon,
+  "18.086627, -67.145735": caborojo,
   "41.878113,-87.629799": sanjuan,
   "18.2197206, -67.1507694": mayaguez,
 };
