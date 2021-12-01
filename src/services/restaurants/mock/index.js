@@ -1,13 +1,13 @@
-import rincon from "./rincon.json";
-import sanjuan from "./sanjuan.json";
-import caborojo from "./caborojo.json";
 import mayaguez from "./mayaguez.json";
+import rincon from "./rincon.json";
+import cabo_rojo from "./cabo_rojo.json";
+import san_juan from "./san_juan.json";
 
 export const mocks = {
-  "-67.249946, 18.340151": rincon,
-  "18.086627, -67.145735": caborojo,
-  "41.878113,-87.629799": sanjuan,
-  "18.2197206, -67.1507694": mayaguez,
+  "18.201345,-67.145155": mayaguez,
+  "18.086627,-67.145735": cabo_rojo,
+  "18.340151,-67.250017": rincon,
+  "18.465539,-66.105735": san_juan,
 };
 
 export const mockImages = [

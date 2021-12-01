@@ -1,26 +1,4 @@
 export const locations = {
-  "cabo rojo": {
-    results: [
-      {
-        geometry: {
-          location: {
-            lng: -67.145735,
-            lat: 18.086627,
-          },
-          viewport: {
-            northeast: {
-              lat: -67.145735,
-              lng: 18.086627,
-            },
-            southwest: {
-              lat: -67.145735,
-              lng: 18.086627,
-            },
-          },
-        },
-      },
-    ],
-  },
   mayaguez: {
     results: [
       {
@@ -33,7 +11,6 @@ export const locations = {
         },
       },
     ],
-    status: "OK",
   },
   "san juan": {
     results: [
@@ -56,6 +33,7 @@ export const locations = {
         },
       },
     ],
+    status: "OK",
   },
   rincon: {
     results: [
@@ -73,6 +51,28 @@ export const locations = {
             southwest: {
               lat: 18.340151,
               lng: -67.250017,
+            },
+          },
+        },
+      },
+    ],
+  },
+  "cabo rojo": {
+    results: [
+      {
+        geometry: {
+          location: {
+            lng: -67.145735,
+            lat: 18.086627,
+          },
+          viewport: {
+            northeast: {
+              lat: 18.086627,
+              lng: -67.145735,
+            },
+            southwest: {
+              lat: 18.086627,
+              lng: -67.145735,
             },
           },
         },
