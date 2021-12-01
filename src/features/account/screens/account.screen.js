@@ -1,6 +1,6 @@
 import React from "react";
 import { List } from "react-native-paper";
-import { Text } from "react-native-paper";
+import { Text } from "../../../components/typography/text.component";
 import { SafeArea } from "../../../components/utility/safe-area.component";
 import { Avatar } from "react-native-elements";
 export const AccountScreen = ({ navigation }) => {
